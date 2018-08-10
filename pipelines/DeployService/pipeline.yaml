@@ -1,9 +1,9 @@
 apiVersion: devops.alauda.io/v1alpha1
 kind: PipelineTemplate
 metadata:
-  name: alaudaDeployService
+  name: DeployService
   annotations:
-    alauda.io/displayName.zh-CN: zj更新服务
+    alauda.io/displayName.zh-CN: ZJ更新服务
     alauda.io/displayName.en: Update service
     alauda.io/description.zh-CN: 使用指定的镜像以及镜像版本等参数，更新指定集群的特定服务
     alauda.io/description.en: Update a service using docker image

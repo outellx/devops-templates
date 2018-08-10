@@ -1,7 +1,7 @@
 apiVersion: devops.alauda.io/v1alpha1
 kind: PipelineTemplate
 metadata:
-  name: buildwithoutCI
+  name: BuildwithoutCI
   annotations:
     alauda.io/displayName.zh-CN: 构建无CI1构建无CI1构建无CI1构建无CI1构建无CI1构建无CI1构建无CI1
     alauda.io/displayName.en: Build docker image
@@ -13,13 +13,6 @@ metadata:
     alauda.io/style.icon: build
   labels:
     catgory: CI
-    tatdasdasdasdadadadadadasdsdeafsdz: asdasdasdasfsdfasdfsdbsadgwaewahiawd
-    test1: 1
-    test2: 2
-    test3: 3
-    phase: incubator
-    test4: 4
-    test5: 5
 spec:
   engine: graph
   withSCM: true

@@ -1,9 +1,9 @@
 apiVersion: devops.alauda.io/v1alpha1
 kind: PipelineTemplate
 metadata:
-  name: alaudaBuildImage
+  name: BuildImage
   annotations:
-    alauda.io/displayName.zh-CN: zj构建
+    alauda.io/displayName.zh-CN: ZJ构建
     alauda.io/displayName.en: Build docker image
     alauda.io/description.zh-CN: 克隆代码并构建镜像
     alauda.io/description.en: Clone code and builds a docker image
@@ -13,7 +13,7 @@ metadata:
     alauda.io/style.icon: build
   labels:
     category: CICD
-    badges: scm,docker
+    badges: scmdocker
 spec:
   engine: graph
   withSCM: true
