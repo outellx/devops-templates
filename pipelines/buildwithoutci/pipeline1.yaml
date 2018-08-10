@@ -49,6 +49,14 @@ spec:
       tasks:
         - name: Test6
           type: public/Test6   
+    - name: Test7
+      tasks:
+        - name: Test7
+          type: public/Test7
+    - name: Test8
+      tasks:
+        - name: Test8
+          type: public/Test8 
     - name: BuildImage
       tasks:
         - name: BuildImage
