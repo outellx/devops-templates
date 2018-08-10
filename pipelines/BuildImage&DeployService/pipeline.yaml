@@ -2,10 +2,10 @@
 apiVersion: devops.alauda.io/v1alpha1
 kind: PipelineTemplate
 metadata:
-  name: alaudaBuildImageAndDeployService
+  name: BuildImageAndDeployService
   annotations:
     alauda.io/displayName.zh-CN: 构建并更新服务
-    alauda.io/displayName.en: Build image and update service
+    alauda.io/displayName.en: Build image and deploy service
     alauda.io/description.zh-CN: 克隆代码并构建镜像然后更新服务
     alauda.io/description.en: Clone code, build docker image and update a service
     alauda.io/readme.zh-CN: 克隆代码并构建镜像然后更新服务
@@ -61,6 +61,8 @@ spec:
             name:
               zh-CN: "构建路径"
               en: "Build context"
+            description:
+              zh-CN: 构建的代码路径。
           required: true
           default: ./
     - displayName:
