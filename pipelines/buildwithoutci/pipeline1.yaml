@@ -76,7 +76,7 @@ spec:
           display:
             type: boolean
             name:
-              zh-CN: "CI开关"
+              zh-CN: "CI开关1"
               en: "CI enable"
           required: false
           default: true
