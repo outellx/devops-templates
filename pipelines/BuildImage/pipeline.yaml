@@ -9,7 +9,7 @@ metadata:
     alauda.io/description.en: Clone code and builds a docker image
     alauda.io/readme.zh-CN: 克隆代码并构建镜像
     alauda.io/readme.en: Clone code and builds a docker image
-    alauda.io/version: v0.2.6
+    alauda.io/version: v0.2.7
     alauda.io/style.icon: build
   labels:
     category: CICD
@@ -57,7 +57,7 @@ spec:
               zh-CN: "是否开启代码扫描"
               en: "Enable SonarQube Scan"
             description:
-              zh-CN: 是否开启代码扫描
+              zh-CN: 是否开启代码扫描FDFDFDFDFDFDF
               en: If Enable SonarQube Scan
           required: false
           default: false
