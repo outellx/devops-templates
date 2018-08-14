@@ -12,7 +12,8 @@ metadata:
     alauda.io/version: v0.14
     alauda.io/style.icon: build
   labels:
-    catgory: CI
+    category: CICD
+    badges: scm,docker
 spec:
   engine: graph
   withSCM: true
