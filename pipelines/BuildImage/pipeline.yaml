@@ -3,13 +3,13 @@ kind: PipelineTemplate
 metadata:
   name: BuildImage-dd
   annotations:
-    alauda.io/displayName.zh-CN: ZJ构建
+    alauda.io/displayName.zh-CN: ZJ构建aaa
     alauda.io/displayName.en: Build docker image
     alauda.io/description.zh-CN: 克隆代码并构建镜像
     alauda.io/description.en: Clone code and builds a docker image
     alauda.io/readme.zh-CN: 克隆代码并构建镜像
     alauda.io/readme.en: Clone code and builds a docker image
-    alauda.io/version: v0.2.5
+    alauda.io/version: v0.2.6
     alauda.io/style.icon: build
   labels:
     category: CICD
