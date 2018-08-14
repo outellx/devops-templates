@@ -13,7 +13,7 @@ metadata:
     alauda.io/style.icon: build
   labels:
     category: CICD
-    badges: cmb, docker
+    badges: docker
 spec:
   engine: graph
   withSCM: true
