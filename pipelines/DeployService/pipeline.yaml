@@ -9,7 +9,7 @@ metadata:
     alauda.io/description.en: Update a service using docker image
     alauda.io/readme.zh-CN: 使用指定的镜像以及镜像版本等参数，更新指定集群的特定服务
     alauda.io/readme.en: Update a service using docker image
-    alauda.io/version: v0.1
+    alauda.io/version: 0.1.1
     alauda.io/style.icon: 
   labels:
     category: CICD
