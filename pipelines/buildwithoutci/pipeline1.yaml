@@ -1,7 +1,7 @@
 apiVersion: devops.alauda.io/v1alpha1
 kind: PipelineTemplate
 metadata:
-  name: MoreStages
+  name: MoreStages-aa
   annotations:
     alauda.io/displayName.zh-CN: 有好多好多stage有好多好多stage有好多好多stage
     alauda.io/displayName.en: Build docker image
@@ -28,6 +28,10 @@ spec:
     - name: Test1
       tasks:
         - name: Test1
+          type: public/Test1
+        - name: Test1-1
+          type: public/Test1
+        - name: Test1-2
           type: public/Test1
     - name: Test2
       tasks:
