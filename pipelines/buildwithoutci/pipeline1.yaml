@@ -1,7 +1,7 @@
 apiVersion: devops.alauda.io/v1alpha1
 kind: PipelineTemplate
 metadata:
-  name: MoreStages-cc
+  name: MoreStages-dd
   annotations:
     alauda.io/displayName.zh-CN: 有好多好多stage有好多好多stage有好多好多stage
     alauda.io/displayName.en: Build docker image
@@ -9,7 +9,7 @@ metadata:
     alauda.io/description.en: Clone code and builds a docker image
     alauda.io/readme.zh-CN: 有好多好多好多好多stage
     alauda.io/readme.en: Clone code and builds a docker image
-    alauda.io/version: v0.16
+    alauda.io/version: v0.17
     alauda.io/style.icon: build
   labels:
     catgory: CI
